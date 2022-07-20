@@ -1,0 +1,42 @@
+.contenido-detail {
+    display: flex;
+    gap: 8rem;
+    margin-left: 5rem;
+}
+
+.caja-principal {
+    text-align: center;
+}
+.contenido-detail img {
+    width: 30rem;
+    height: 30rem;
+}
+.contenido-detail p {
+    text-align: center;
+    width: 70%;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    
+}
+.caja2 {
+    margin-top: 3rem;
+    text-align: center;
+}
+.botonCaja2 {
+    text-align: center;
+    margin-right: 15rem;
+}
+.botonCaja2 button {
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.botonCaja2 button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 5px 20px black;
+}

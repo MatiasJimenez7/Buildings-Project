@@ -1,0 +1,47 @@
+.contenedor-form {
+    
+    width: 800px;
+    background-color: rgb(41, 41, 116);
+    padding: 50px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+}
+.input {
+    width: 100%;
+    background: rgb(41, 41, 116);
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    color: white;
+    margin-right: 100px;
+    font-size: 1.2rem;
+}
+.contenedor-form button {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: "calibri";
+    text-align: center;
+}
+.form {
+    margin-right: 2.5rem;
+}
+.inputSubmit {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: "calibri";
+    text-align: center;
+}
