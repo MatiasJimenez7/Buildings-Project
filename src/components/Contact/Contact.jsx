@@ -21,8 +21,12 @@ const Contact = () => {
         <input className='input' type="text" placeholder='Surname' {...register("Surname", {
           required: true
         })}/>
-        <input className='input' type="text" placeholder='Phone' {...register("Phone")}/>
-        <input className='input' type="text" placeholder='Email' {...register("Email")}/>
+        <input className='input' type="text" placeholder='Phone' {...register("Phone", {
+          required: true
+        })}/>
+        <input className='input' type="text" placeholder='Email' {...register("Email", {
+          required: true
+        })}/>
         <input onClick={mensaje} className='inputSubmit' type="submit" value="enviar" />
         {errors.name?.type === "required" && <p>Complete all fields</p>}
         {errors.Surname?.type === "required" && <p>Complete all fields</p>}
